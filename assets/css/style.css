@@ -1,12 +1,14 @@
 body { 
     background-image: url(../images/prism/prism.png);
-    padding-top: 100px; 
+    padding-top: 100px;
+    padding-bottom: 0px; 
 }
 @media screen and (max-width: 768px) {
-    body { padding-top: 60px; }
+    body { padding-top: 60px; padding-bottom:40px; }
+    
 }
 @media screen and (max-width: 400px) {
-    body { padding-top: 100px; }
+    body { padding-top: 100px; padding-bottom:40px; }
 }
 
 .green {
